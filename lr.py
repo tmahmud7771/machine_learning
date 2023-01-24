@@ -74,8 +74,12 @@ print("Enter the production budget of the film to predict the revenue")
 
 budget = float(input())
 
-y = m * budget + c
+y_val = m * budget + c
 
-print("The predicted revenue of the film is {y}".format(y=y))
+print("The predicted revenue of the film is {y_val}".format(y_val=y_val))
+
+# regression score
+
+print("Regression Score",regression.score(X, y))
 
 
