@@ -36,6 +36,7 @@ plt.xlabel('Production Budget')
 plt.ylabel('Worldwide Gross')
 plt.ylim(0, 3000000000)
 plt.xlim(0, 450000000)
+plt.style.use('fivethirtyeight')
 plt.show()
 
 # Create linear regression object
@@ -62,6 +63,7 @@ plt.xlabel('Production Budget')
 plt.ylabel('Worldwide Gross')
 plt.ylim(0, 3000000000)
 plt.xlim(0, 450000000)
+plt.style.use('fivethirtyeight')
 plt.show()
 
 m = regression.coef_[0][0]
