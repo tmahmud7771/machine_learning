@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 
 # Read the data
 print("Enter the path of the data set")
-path = f"data_sets\{input()}"
+path = f"..\data_sets\{input()}"
 print(path)
 data = pd.read_csv(path)
 
