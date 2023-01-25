@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 # Read the data
-data = pd.read_csv("data_sets\cost_revenue_dirty.csv")
+data = pd.read_csv("..\data_sets\cost_revenue_dirty.csv")
 
 # Print out the first rows of data
 print(data.head())
